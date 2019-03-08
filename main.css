@@ -1,0 +1,102 @@
+body {
+  margin: 0
+}
+img {
+  align-self: center;
+  max-width: 100%;
+}
+.parent,.child, header, nav, #bg {
+  display: flex;
+  flex-direction: column;
+}
+.parent, header, nav, #bg {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+header {
+  width: 100vw;
+  max-width: 100%;
+  flex-direction: column;
+  margin: 0;
+  padding: 2vh 0 2vh 0
+}
+nav {
+  flex-direction: row;
+  width: 100vw;
+  max-width: 100%;
+  background-color: white;
+}
+nav a {
+  margin: 0 2vw;
+}
+.parent {
+  width: 100vw;
+  max-width: 100%;
+  background-color: black
+}
+.title {
+  background-color: white;
+}
+.child {
+  width:40vw;
+  padding: 5vh 5vw;
+  background-color: white
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  width: 100%;
+  margin:0;
+  justify-content: center;
+}
+#title {
+  margin-left:5vw;
+  width:70vw;
+}
+#rainbow {
+  width: 100vw;
+}
+
+#img1 img{
+  margin: 0 1vw;
+}
+#abt {
+  background-image: url("abtbg.jpg");
+  background-size: contain;
+}
+
+#bg1 {
+  background-image: url("bgs/sky1.gif");
+  background-size: cover;
+}
+#bg2 {
+  background-image: url("bgs/sky4.gif");
+}
+#bg3 {
+  background-image: url("bgs/sky5.gif");
+}
+#bg4 {
+  background-image: url("bgs/sky6.gif");
+}
+#bg5 {
+  background-image: url("bgs/sky7.gif");
+}
+#bg6 {
+  background-image: url("bgs/sky8.gif");
+}
+#bg7 {
+  background-image: url("bgs/sky9.gif");
+}
+.bgn img {
+margin: 10vh 10vw;
+width:80vw}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2vh;
+}
