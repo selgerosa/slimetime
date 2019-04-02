@@ -5,9 +5,34 @@ img {
   align-self: center;
   max-width: 100%;
 }
-.parent,.child, header, nav, #bg {
+.parent,.child, header, nav, #bg, .internalchild, .internalchild2 {
   display: flex;
   flex-direction: column;
+}
+.internalparent {
+  display: flex;
+  flex-direction: row;
+  backface-visibility: hidden;
+  will-change: overflow;
+  overflow: hidden;
+  height:100vh
+}
+.internalchild {
+  width: 35vw;
+  margin: 0 2.5vw;
+  padding: 0 2vw;
+  background-color: white;
+  overflow: auto;
+  height: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+}
+.internalchild2 {
+  width: 65vw;
+  overflow: auto;
+  height: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
 }
 .parent, header, nav, #bg {
   align-items: center;
@@ -19,7 +44,10 @@ header {
   max-width: 100%;
   flex-direction: column;
   margin: 0;
-  padding: 2vh 0 2vh 0
+  padding:0
+}
+header .flexrow {
+  padding-top:2vh;
 }
 nav {
   flex-direction: row;
@@ -30,7 +58,7 @@ nav {
 nav a {
   margin: 0 2vw;
 }
-.parent {
+.parent, .internalparent {
   width: 100vw;
   max-width: 100%;
   background-color: black
@@ -42,6 +70,12 @@ nav a {
   width:40vw;
   padding: 5vh 5vw;
   background-color: white
+}
+.child p, .internalchild p, .internalchild2 p{
+  text-align: left;
+}
+.bodycopy {
+  width: 30vw
 }
 .flexrow {
   display: flex;
@@ -71,6 +105,9 @@ nav a {
   background-image: url("bgs/sky1.gif");
   background-size: cover;
 }
+.bg1 {
+  background-image: url("bgs/sky1.gif");
+}
 #bg2 {
   background-image: url("bgs/sky4.gif");
 }
@@ -92,11 +129,66 @@ nav a {
 .bgn img {
 margin: 10vh 10vw;
 width:80vw}
-
+.internalchild2 .bgn {
+  width:50vw;
+  margin:5vh 5vw;
+}
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 2vh;
+}
+
+
+.marquee {
+  height: 4vh;
+  width: 100vw;
+
+  overflow: hidden;
+  position: relative;
+  background-color:orange
+
+}
+
+.marquee div {
+  display: block;
+  width: 400%;
+  padding-top:.5vh;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 30s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 100%;
+}
+
+@keyframes marquee {
+  0% { left: 100%; }
+  100% { left: -400%; }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #33cc33;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff00;
 }
