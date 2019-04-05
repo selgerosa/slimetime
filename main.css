@@ -108,10 +108,10 @@ nav a {
 .bg1 {
   background-image: url("bgs/sky1.gif");
 }
-#bg2 {
+#bg2,.bg2 {
   background-image: url("bgs/sky4.gif");
 }
-#bg3 {
+#bg3,.bg3 {
   background-image: url("bgs/sky5.gif");
 }
 #bg4 {
@@ -127,7 +127,7 @@ nav a {
   background-image: url("bgs/sky9.gif");
 }
 .bgn img {
-margin: 10vh 10vw;
+margin: 10vh 8vw;
 width:80vw}
 .internalchild2 .bgn {
   width:50vw;
