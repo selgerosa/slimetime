@@ -114,16 +114,16 @@ nav a {
 #bg3,.bg3 {
   background-image: url("bgs/sky5.gif");
 }
-#bg4 {
+#bg4,.bg4 {
   background-image: url("bgs/sky6.gif");
 }
-#bg5 {
+#bg5,.bg5 {
   background-image: url("bgs/sky7.gif");
 }
-#bg6 {
+#bg6,.bg6 {
   background-image: url("bgs/sky8.gif");
 }
-#bg7 {
+#bg7, .bg7 {
   background-image: url("bgs/sky9.gif");
 }
 .bgn img {
@@ -191,4 +191,9 @@ footer {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #00ff00;
+}
+
+iframe {
+  width:60vw;
+  height:40vh
 }
