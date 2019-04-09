@@ -4,6 +4,7 @@ body {
 img {
   align-self: center;
   max-width: 100%;
+  height: auto;
 }
 .parent,.child, header, nav, #bg, .internalchild, .internalchild2 {
   display: flex;
@@ -89,6 +90,11 @@ nav a {
   margin-left:5vw;
   width:70vw;
 }
+
+#qmark {
+  width:4vw;
+}
+
 #rainbow {
   width: 100vw;
 }
@@ -128,7 +134,8 @@ nav a {
 }
 .bgn img {
 margin: 10vh 8vw;
-width:80vw}
+max-width:80vw
+}
 .internalchild2 .bgn {
   width:50vw;
   margin:5vh 5vw;
