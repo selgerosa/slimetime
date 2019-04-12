@@ -1,5 +1,19 @@
 function randfriend(){
   var e=["https://derichamer.me/","http://gelard.com","http://www.herger.me/","http://q-mart.net/","https://www.danielledinstman.com/","https://www.gracecolbertdesign.com/","https://www.tabithamichaelidis.com/"],n=Math.floor(Math.random()*e.length);window.location.href=e[n]}
+
+var mode = false;
+
+function nightmode() {
+  if (mode == false) {
+    var temp = document.getElementsByClassName('child');
+    for (i=0; i<temp.length; i++) {
+      temp[i].style.backgroundColor='black';
+    }
+    mode= true;
+  }
+}
+
+
   // <![CDATA[
   var colour="#33cc33";
   var sparkles=120;
