@@ -137,8 +137,8 @@ margin: 10vh 8vw;
 max-width:80vw
 }
 .internalchild2 .bgn {
-  width:50vw;
   margin:5vh 5vw;
+  max-width: 80%;
 }
 footer {
   display: flex;
