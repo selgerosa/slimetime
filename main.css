@@ -90,7 +90,19 @@ nav a {
   margin-left:5vw;
   width:70vw;
 }
-
+#block1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#block1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 #qmark {
   width:4vw;
 }
