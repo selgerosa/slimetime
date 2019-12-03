@@ -144,6 +144,9 @@ nav a {
 #bg7, .bg7 {
   background-image: url("bgs/sky9.gif");
 }
+#bg8, .bg8 {
+  background-image: url("bgs/sky10.gif");
+}
 .bgn img {
 margin: 10vh 8vw;
 max-width:80vw
