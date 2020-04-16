@@ -86,6 +86,7 @@ nav a {
   margin:0;
   justify-content: center;
 }
+#mobile {display: none;}
 #title {
   margin-left:5vw;
   width:70vw;
@@ -254,5 +255,17 @@ iframe {
   }
   .child {
     width:80vw;
+  }
+  .ball {width:10vw;}
+  #mobile {
+    width: 100vw;
+    text-align: center;
+    color: green;
+    background-color: yellow;
+    padding:2vh 0;
+    display: block;
+  }
+  #mobile h3 {
+    margin: 0;
   }
 }
