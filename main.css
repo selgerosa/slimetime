@@ -1,5 +1,15 @@
 body {
-  margin: 0
+  margin: 0;
+  font-family: "happy-times-NG_regular_master_web";
+  overflow-x: hidden;
+}
+@font-face {
+font-family: "happy-times-NG_regular_master_web";
+  src: url("happy-times-NG_regular_master_web.ttf") format('ttf'),
+       url("happy-times-NG_regular_master_web.woff")  format('woff'),
+       url("happy-times-NG_regular_master_web.woff2")  format('woff2');
+  font-weight:normal;
+  font-display:swap;
 }
 img {
   align-self: center;
@@ -89,7 +99,7 @@ nav a {
 #mobile {display: none;}
 #title {
   margin-left:5vw;
-  width:70vw;
+  width:60vw;
 }
 #block1{
   display: flex;
@@ -119,7 +129,10 @@ nav a {
   background-image: url("abtbg.jpg");
   background-size: contain;
 }
-
+#cnt {
+  background-image: url("bg2.jpg");
+  background-size: contain;
+}
 #bg1 {
   background-image: url("bgs/sky1.gif");
   background-size: cover;
