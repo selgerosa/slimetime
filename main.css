@@ -45,6 +45,38 @@ img {
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
 }
+.internalchild3 {
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.internalchild3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+}
+.internalchild3 div p, .internalchild3 p {
+  background: white;
+  margin: 0 15vw 2vh;
+  padding: 4vh 2vw;
+  width: 66vw;
+}
+.internalchild3 div img {
+  margin:10vh 15vw 0;
+  max-height: 80vh;
+}
+.internalchild3 h2 {
+  background-color: white;
+  padding: 2vh 5vw
+}
 .parent, header, nav, #bg {
   align-items: center;
   text-align: center;
@@ -65,6 +97,7 @@ nav {
   width: 100vw;
   max-width: 100%;
   background-color: white;
+  flex-wrap: wrap;
 }
 nav a {
   margin: 0 2vw;
@@ -169,6 +202,7 @@ max-width:80vw
   margin:5vh 5vw;
   max-width: 80%;
 }
+
 footer {
   display: flex;
   align-items: center;
