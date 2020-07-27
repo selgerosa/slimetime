@@ -77,6 +77,27 @@ img {
   background-color: white;
   padding: 2vh 5vw
 }
+.linklist {
+  width: 64vw;
+  height: 92vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  margin: 2vh 15vw;
+  padding: 2vh 2vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.linklist p {
+  font-size: 1.5em;
+  margin: 2vh 0
+}
+.linklist h2 {
+  margin: 2vh 0
+}
 .parent, header, nav, #bg {
   align-items: center;
   text-align: center;
