@@ -1,5 +1,5 @@
 function randfriend(){
-  var e=["https://derichamer.me/","http://gelard.com","http://www.herger.me/","http://q-mart.net/","https://www.danielledinstman.com/","https://www.gracecolbertdesign.com/","https://www.tabithamichaelidis.com/"],n=Math.floor(Math.random()*e.length);window.location.href=e[n]}
+  var e=["https://alk0022.myportfolio.com/","https://derichamer.com/","http://gelard.com","https://www.behance.net/lizbethherger","https://quanmart.net/","https://www.danielledinstman.com/","https://www.gracecolbertdesign.com/","https://www.tabithamichaelidis.com/"],n=Math.floor(Math.random()*e.length);window.location.href=e[n]}
 
 var mode = false;
 
