@@ -313,10 +313,10 @@ iframe {
     flex-direction:column;
   }
   .internalchild, .internalchild2 {
-    width: 100vw;
-    margin:0;
+    width: 90vw;
+    margin:0 0 0 5vw;
     padding: 0;
-    height:50vh
+    height:40vh
   }
   .internalchild p{
     margin: 2vh 5vw;
@@ -335,5 +335,12 @@ iframe {
   }
   #mobile h3 {
     margin: 0;
+  }
+  nav {
+    position: fixed;
+    bottom: 0;
+  }
+  nav a {
+    margin-bottom: 1vh;
   }
 }
