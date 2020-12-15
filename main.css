@@ -120,8 +120,8 @@ nav {
   background-color: white;
   flex-wrap: wrap;
 }
-nav a {
-  margin: 0 2vw;
+nav p {
+  margin: 2vh 2vw;
 }
 .parent, .internalparent {
   width: 100vw;
@@ -336,12 +336,18 @@ iframe {
   #mobile h3 {
     margin: 0;
   }
+  #qmark {
+    width:10vw;
+  }
   nav {
     position: fixed;
     bottom: 0;
     z-index: 4
   }
-  nav a {
-    margin-bottom: 0;
+  nav p {
+    margin: 1vh 2vw;
+  }
+  #img1 img{
+    width:50px
   }
 }
