@@ -186,6 +186,7 @@ nav p {
 #cnt {
   background-image: url("bg2.jpg");
   background-size: contain;
+  background-repeat: repeat-x;
 }
 #bg1 {
   background-image: url("bgs/sky1.gif");
@@ -238,13 +239,7 @@ button {
   bottom:0;
 }
 
-marquee {
-  background-color:#009933;
-  color:white;
-}
-marquee h4 {
-  margin: 1vh 0
-}
+
 
 .marquee {
   height: 4vh;
