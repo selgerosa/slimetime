@@ -15,6 +15,7 @@ img {
   align-self: center;
   max-width: 100%;
   height: auto;
+  flex-shrink: 0;
 }
 .parent,.child, header, nav, #bg, .internalchild, .internalchild2 {
   display: flex;
