@@ -63,6 +63,7 @@ img {
 .internalchild3 img {
   margin:10vh 5vw 0;
   max-height: 80vh;
+  max-width: 80vw;
 }
 .internalchild3 h2 {
   background-color: white;
