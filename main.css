@@ -62,7 +62,7 @@ img {
   height: auto;
   width: 70vw;
 }
-.internalchild3 div p, .internalchild3 p {
+ .internalchild3 p {
   background: white;
   margin: 0 15vw 2vh;
   padding: 4vh 2vw;
@@ -194,25 +194,25 @@ nav p {
 .bg1 {
   background-image: url("bgs/sky1.gif");
 }
-#bg2,.bg2 {
+.bg2 {
   background-image: url("bgs/sky4.gif");
 }
-#bg3,.bg3 {
+.bg3 {
   background-image: url("bgs/sky5.gif");
 }
-#bg4,.bg4 {
+.bg4 {
   background-image: url("bgs/sky6.gif");
 }
-#bg5,.bg5 {
+.bg5 {
   background-image: url("bgs/sky7.gif");
 }
-#bg6,.bg6 {
+.bg6 {
   background-image: url("bgs/sky8.gif");
 }
-#bg7, .bg7 {
+.bg7 {
   background-image: url("bgs/sky9.gif");
 }
-#bg8, .bg8 {
+.bg8 {
   background-image: url("bgs/sky10.gif");
 }
 .bgn img {
@@ -236,39 +236,6 @@ button {
   position: fixed;
   left: 0;
   bottom:0;
-}
-
-
-
-.marquee {
-  height: 4vh;
-  width: 100vw;
-
-  overflow: hidden;
-  position: relative;
-  background-color:orange
-
-}
-
-.marquee div {
-  display: block;
-  width: 400%;
-  padding-top:.5vh;
-
-  position: absolute;
-  overflow: hidden;
-
-  animation: marquee 30s linear infinite;
-}
-
-.marquee span {
-  float: left;
-  width: 100%;
-}
-
-@keyframes marquee {
-  0% { left: 100%; }
-  100% { left: -400%; }
 }
 
 /* width */
@@ -305,6 +272,7 @@ iframe {
 @media all and (max-width:500px) {
   .internalparent {
     flex-direction:column;
+    overflow-y: scroll;
   }
   .internalchild, .internalchild2 {
     width: 90vw;
@@ -312,7 +280,9 @@ iframe {
     padding: 0;
     height:40vh
   }
-  .internalchild3 div {max-height: 100%;}
+  .internalchild3 div {width: 90vw;
+  margin:0 0 0 5vw;
+  padding: 0;}
   .internalchild p{
     margin: 2vh 5vw;
   }
