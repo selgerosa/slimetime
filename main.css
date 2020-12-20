@@ -54,22 +54,14 @@ img {
   -ms-overflow-style: none;
   align-items: center;
 }
-.internalchild3 div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: auto;
-  width: 70vw;
-}
  .internalchild3 p {
   background: white;
   margin: 0 15vw 2vh;
   padding: 4vh 2vw;
   width: 66vw;
 }
-.internalchild3 div img {
-  margin:10vh 15vw 0;
+.internalchild3 img {
+  margin:10vh 5vw 0;
   max-height: 80vh;
 }
 .internalchild3 h2 {
@@ -280,9 +272,6 @@ iframe {
     padding: 0;
     height:40vh
   }
-  .internalchild3 div {width: 90vw;
-  margin:0 0 0 5vw;
-  padding: 0;}
   .internalchild p{
     margin: 2vh 5vw;
   }
