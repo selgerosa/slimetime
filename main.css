@@ -17,7 +17,7 @@ img {
   height: auto;
   flex-shrink: 0;
 }
-.parent,.child, header, nav, #bg, .internalchild, .internalchild2 {
+.parent,.child, header, nav, #bg, .internalchild, .internalchild2, .internalchild3 {
   display: flex;
   flex-direction: column;
 }
@@ -48,13 +48,10 @@ img {
 }
 .internalchild3 {
   width: 100vw;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: auto;
   height: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .internalchild3 div {
@@ -62,6 +59,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: auto;
   width: 70vw;
 }
 .internalchild3 div p, .internalchild3 p {
