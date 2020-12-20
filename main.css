@@ -312,7 +312,7 @@ iframe {
     padding: 0;
     height:40vh
   }
-  .internalchild3 {height: auto;}
+  .internalchild3 div img {max-height: auto;}
   .internalchild p{
     margin: 2vh 5vw;
   }
