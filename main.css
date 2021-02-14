@@ -71,7 +71,7 @@ img {
 }
 .linklist {
   width: 64vw;
-  height: 92vh;
+  height: 100vh;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
